@@ -1,0 +1,58 @@
+11:25:06.180 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:25:06.202 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+11:25:06.449 DEBUG AUTOMATION - Inicializando el driver
+11:25:09.160 DEBUG AUTOMATION - Maximizando pantalla
+11:25:09.215 DEBUG AUTOMATION - Borrando cookies
+11:25:09.236 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+11:25:09.247 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:25:09.525 INFO  AUTOMATION - Navegando a la url
+11:25:10.717 INFO  AUTOMATION - Esperando que la pagina LoginPage carge
+11:25:10.807 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:25:11.563 INFO  AUTOMATION - Escribiendo el username
+11:25:11.758 INFO  AUTOMATION - Escribiendo el password
+11:25:11.895 INFO  AUTOMATION - Haciendo click en el boton de login
+11:25:12.107 INFO  AUTOMATION - Esperando que la pagina ShoppingPage carge
+11:25:12.157 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:25:12.174 INFO  AUTOMATION - Comenzando el test: productListPriceTest
+11:25:12.783 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:25:12.799 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:25:13.186 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:25:13.444 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:25:13.698 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:25:13.718 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:25:13.727 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:25:13.748 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:25:13.760 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:25:13.834 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+11:25:13.836 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:25:13.846 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+11:25:13.850 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:25:13.851 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+11:25:13.862 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:25:13.955 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+11:25:13.962 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+11:25:14.401 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+11:25:14.406 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+11:25:15.137 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+11:25:15.153 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+11:25:15.160 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+11:25:15.198 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+11:25:15.203 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+11:25:15.222 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+11:25:15.262 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+11:25:15.279 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+11:25:15.299 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+11:25:15.311 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+11:25:15.318 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+11:25:15.327 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+11:25:15.338 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+11:25:15.442 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+11:25:15.450 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+11:25:15.621 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+11:25:15.722 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+11:25:15.812 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:25:15.813 INFO  AUTOMATION - Verificando el precio de los productos
+11:25:16.143 DEBUG AUTOMATION - beforeTestStop
+11:25:16.159 INFO  AUTOMATION - Test exitoso: productListPriceTest
+11:25:16.162 DEBUG AUTOMATION - Matando el driver
+11:25:16.665 INFO  AUTOMATION - Suite finalizada: Default Suite

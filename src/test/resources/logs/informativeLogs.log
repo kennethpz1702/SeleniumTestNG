@@ -1,0 +1,13 @@
+11:25:06.180 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:25:09.525 INFO  AUTOMATION - Navegando a la url
+11:25:10.717 INFO  AUTOMATION - Esperando que la pagina LoginPage carge
+11:25:10.807 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:25:11.563 INFO  AUTOMATION - Escribiendo el username
+11:25:11.758 INFO  AUTOMATION - Escribiendo el password
+11:25:11.895 INFO  AUTOMATION - Haciendo click en el boton de login
+11:25:12.107 INFO  AUTOMATION - Esperando que la pagina ShoppingPage carge
+11:25:12.157 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:25:12.174 INFO  AUTOMATION - Comenzando el test: productListPriceTest
+11:25:15.813 INFO  AUTOMATION - Verificando el precio de los productos
+11:25:16.159 INFO  AUTOMATION - Test exitoso: productListPriceTest
+11:25:16.665 INFO  AUTOMATION - Suite finalizada: Default Suite

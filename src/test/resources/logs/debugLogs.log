@@ -1,0 +1,25 @@
+11:25:06.180 INFO  AUTOMATION - Suite iniciada: Default Suite
+11:25:06.202 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+11:25:06.449 DEBUG AUTOMATION - Inicializando el driver
+11:25:09.160 DEBUG AUTOMATION - Maximizando pantalla
+11:25:09.215 DEBUG AUTOMATION - Borrando cookies
+11:25:09.236 DEBUG AUTOMATION - Seteando implicit wait de 5 segundos
+11:25:09.247 DEBUG AUTOMATION - Asignando driver al webdriver provider
+11:25:09.525 INFO  AUTOMATION - Navegando a la url
+11:25:10.717 INFO  AUTOMATION - Esperando que la pagina LoginPage carge
+11:25:10.807 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+11:25:11.563 INFO  AUTOMATION - Escribiendo el username
+11:25:11.758 INFO  AUTOMATION - Escribiendo el password
+11:25:11.895 INFO  AUTOMATION - Haciendo click en el boton de login
+11:25:12.107 INFO  AUTOMATION - Esperando que la pagina ShoppingPage carge
+11:25:12.157 INFO  AUTOMATION - ShoppingPage ha cargado satisfactoriamente
+11:25:12.174 INFO  AUTOMATION - Comenzando el test: productListPriceTest
+11:25:12.783 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:25:12.799 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:25:13.186 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:25:15.812 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+11:25:15.813 INFO  AUTOMATION - Verificando el precio de los productos
+11:25:16.143 DEBUG AUTOMATION - beforeTestStop
+11:25:16.159 INFO  AUTOMATION - Test exitoso: productListPriceTest
+11:25:16.162 DEBUG AUTOMATION - Matando el driver
+11:25:16.665 INFO  AUTOMATION - Suite finalizada: Default Suite
