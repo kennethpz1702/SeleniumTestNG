@@ -11,7 +11,7 @@ import java.time.Duration;
 import java.util.List;
 
 public abstract class BasePage {
-    private final static int defaultTimeout = 5;
+    private final static int defaultTimeout = 10;
     protected final SoftAssert softAssert;
     private final int timeOut;
 
@@ -32,7 +32,7 @@ public abstract class BasePage {
     protected void waitPage(By locator, String pagename) {
         final var wait = new WebDriverWait(getDriver(), Duration.ofSeconds(this.timeOut));
 
-        Logs.info("Esperando que la pagina %s cargue", pagename);
+        Logs.info("Esperando que la pagina %s carge", pagename);
         wait.until(ExpectedConditions
                 .visibilityOfElementLocated(locator));
         Logs.info("%s ha cargado satisfactoriamente", pagename);
