@@ -17,16 +17,16 @@ public class LoginTests extends BaseTest {
         loginPage.waitPageToLoad(); //Espero que cargue la pagina
     }
 
-    @Test
+    @Test(groups = {regression})
     public void usuarioInvalidoTest() {
         loginPage.fillLogin("locked_out_user", "secret_sauce");
         loginPage.verifyErrorMessage("Epic sadface: Sorry, this user has been locked out.");
     }
 
-    @Test
+    @Test(groups = {regression, smoke})
     public void verifyLoginPageTest() {
         loginPage.verifyPage();
     }
 
-    
+
 }

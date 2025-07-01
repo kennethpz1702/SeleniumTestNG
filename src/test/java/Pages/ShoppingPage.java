@@ -10,6 +10,11 @@ public class ShoppingPage extends BasePage {
     private final By productsTitle = By.xpath("//span[text()='Products']");
     private final By selecItem = By.cssSelector("select[data-test='product-sort-container']");
 
+    private By getItemName(String itenName) { //Localizador dinámico.
+        final var xpath = String.format("//div[text()='%s']", itenName);
+        return By.xpath(xpath);
+    }
+
     @Override
     @Step("Esperando que cargue la pagina de shopping")
     public void waitPageToLoad() {
@@ -25,5 +30,11 @@ public class ShoppingPage extends BasePage {
         softAssert.assertTrue(find(productsTitle).isDisplayed());
         softAssert.assertTrue(find(selecItem).isDisplayed());
         softAssert.assertAll();
+    }
+
+    @Step("Navegando al detalle del item")
+    public void goToItemDetail(String itemName) {
+        Logs.info("Navegando al detalle de item: %s", itemName);
+        find(getItemName(itemName)).click();
     }
 }
